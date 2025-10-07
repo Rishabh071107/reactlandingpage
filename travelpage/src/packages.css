@@ -1,0 +1,73 @@
+
+.container {
+  
+ justify-content: flex-start;
+  gap: 90px;
+  padding: 40px;
+  display: flex;
+  
+  margin-left:110px;
+}
+
+
+
+.card {
+  background: white;
+  border-radius: 12px;
+  border: 2px solid orangered;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 350px;
+  border-radius: 25px;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover
+}
+
+.card h2 {
+  font-size: 22px;
+  margin: 15px 0 5px;
+  color: #333;
+}
+
+.card p {
+   font-size: 16px;
+   
+}
+
+.card .price {
+  font-size: 18px;
+  color: 
+ 
+}
+
+.card .button {
+  background-color: orangered;
+  color: white;
+  width: 150px;
+  
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  margin: 20px 20px 20px 20px;
+  
+  font-weight: bold;
+  transition: background 0.3s ease;
+  text-align: center;
+}
+
+.card button:hover {
+  background-color: #10071a;
+}
+
+
+.nxt{
+    font-family: Bungee Spice;
+    margin-left: 550px;
+}
